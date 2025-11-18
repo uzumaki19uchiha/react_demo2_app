@@ -38,8 +38,6 @@ function App() {
   return (
     <div>
       <nav className="app-nav">
-        <Link to="/">Home</Link>
-        {' | '}
         <Link to="/about">About</Link>
       </nav>
 
