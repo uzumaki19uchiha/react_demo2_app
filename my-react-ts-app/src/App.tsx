@@ -40,13 +40,23 @@ function App() {
       <nav className="app-nav">
         <Link to="/about">About</Link>
       </nav>
+      
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+
+       
+     <Message name = "sreeman" />
+
     </div>
   )
 }
+
+function Message({ name }: {name: string}) {
+  return <h1>Hello {name} </h1>;
+}
+
 
 export default App
