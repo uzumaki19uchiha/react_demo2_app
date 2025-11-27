@@ -9,6 +9,7 @@ import capicon from './assets/capicon.svg'
 export function Header() {
   return (
     <div className="bg-white p-4">
+      <h1>hi</h1>
       <div className="flex flex-wrap items-center justify-between gap-4">
         {/* Logo + Branding */}
         <div className="flex items-center flex-shrink-0">
@@ -51,5 +52,6 @@ export function Header() {
         </div>
       </div>
     </div>
+   
   )
 }
